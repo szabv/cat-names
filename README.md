@@ -11,4 +11,7 @@ Do this:
 Then go to: 
 http://localhost:8090/
 
+If your interested you can run some tests with: 
+npm test
+
 Enjoy the gender related cat names.
