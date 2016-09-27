@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/app';
 
-const pathToData = 'http://localhost:8090/data';
+const dataUrl = 'http://localhost:8090/animal-data';
 
 ReactDOM.render(
-  <App pathToData={pathToData} />,
+  <App dataUrl={dataUrl} />,
   document.getElementById('app')
 );

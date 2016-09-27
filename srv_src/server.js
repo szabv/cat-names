@@ -5,7 +5,7 @@ const dataUrl = 'http://agl-developer-test.azurewebsites.net/people.json';
 
 export default function() {
 	const app = express();
-	const port = 8080;
+	const port = 8090;
 
 	// Serve static files from /public
 	app.use(express.static('public'));
