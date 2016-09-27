@@ -1,16 +1,13 @@
-# cat-names
-A demo to show some react and node.
+# Cat Names
+A demo to show some react and node. To run it you will need node installed. Clone the repository install the npm dependencies. 
+Once npm finishes grinding away you can build the client side code and start up a web server with "npm start".
 
-To get started 
-
-Clone the repo. 
-Install packages with: 
+Do this:
+git clone https://github.com/szabv/cat-names.git
 npm install 
-
-Build the client side code and start a web server: 
 npm start 
 
 Go to: 
 http://localhost:8090/
 
-To see some cat names.
+Enjoy the gender specific cat names.
