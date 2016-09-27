@@ -18,5 +18,5 @@ export default function() {
 	app.listen(port);
 
 	console.log('Wow you went to a bit of trouble to check this out. Appreciated..');
-	console.log(`Server should now running point your browser to: http://localhost:${port}`);
+	console.log(`Server now running, point your browser to: http://localhost:${port}`);
 }
