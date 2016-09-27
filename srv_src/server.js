@@ -10,11 +10,6 @@ export default function() {
 	// Serve static files from /public
 	app.use(express.static('public'));
 
-	// End point to see if it works. 
-	app.get('/test', function(req, res) {
-			res.send('this is a sample!');  
-	});
-
 	// Animal data end point.
 	app.get('/animal-data', function(req, res) {
 		// Download and transform the data and send it to UI ready to be 
