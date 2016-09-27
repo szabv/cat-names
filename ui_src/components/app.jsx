@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Header, Grid, Container } from 'stardust';
 import NameList from './name-list';
+import $ from "jquery";
 
 const { Column, Row } = Grid;
 
@@ -11,7 +12,7 @@ export default React.createClass({
 
   componentDidMount: function() {
     this.serverRequest = $.get(this.props.dataUrl, function (result) {
-      this.setState({ animalData: JSON.parse( result ) });
+      this.setState( JSON.parse( result ));
     }.bind(this));
   },
 

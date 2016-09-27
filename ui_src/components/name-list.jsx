@@ -6,11 +6,9 @@ export default React.createClass({
 		return <div> 
 			<Header as='h3'>{this.props.heading}</Header>
 			<ul>
-				{
-					this.props.names.forEach( (name) => {
-						<li>{name}</li>;
-					})
-				}
+				{this.props.names.map(function(name, i){
+					return <li  key={i}>{name}</li>;
+				})}
 			</ul>
 		</div>;
 	}
