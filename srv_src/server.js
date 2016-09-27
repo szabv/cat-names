@@ -15,7 +15,7 @@ export default function() {
 		// Download and transform the data and send it to UI ready to be 
 		// displayed.
 		processAnimalData(dataUrl).then((data) => {
-			console.log('Some one want\'s some cat names bless\'em.');
+			console.log('Some one wants some cat names bless\'em.');
 			res.send(data);
 		});
 	});

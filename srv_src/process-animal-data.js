@@ -28,8 +28,8 @@ export function animalDataTransformer (data){
 	});
 }
 
-// Function requests the animal data form the web service and transforms it 
-// to be displayed in the UI.
+// Method requests the animal data form the web service and transforms it 
+// to be in the shape the UI expects. 
 export default function(uri){
 	var options = {
 		uri,

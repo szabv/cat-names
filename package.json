@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack && babel-node app.js",
-    "test": "mocha test/ --compilers js:babel-core/register --recursive --require ./test/test_helper.js"
+    "test": "mocha tests --compilers js:babel-core/register --recursive"
   },
   "keywords": [],
   "author": "",
