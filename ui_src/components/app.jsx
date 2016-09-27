@@ -22,7 +22,7 @@ export default React.createClass({
 				<Grid padded>
 					<Column>
 						<Header as='h1'>Cats' Names By Gender of Owner</Header> 
-						<p>Few... That's a mouth full.. any way hear are some cat names for guys and girls..</p>
+						<p>Phew... That's a mouth full.. any way hear are some cat names for guys and girls..</p>
 					</Column>
 				</Grid>
 			</Container>
