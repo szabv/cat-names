@@ -21,7 +21,7 @@ export function animalDataTransformer (data){
 		return results;
 	}, { Male: [], Female: [] } );
 
-	// Sort the cat names in alphabetically.
+	// Sort the cat names alphabetically.
 	return JSON.stringify({ 
 		Male: results.Male.sort(), 
 		Female: results.Female.sort(),
@@ -30,6 +30,7 @@ export function animalDataTransformer (data){
 
 // Method requests the animal data form the web service and transforms it 
 // to be in the shape the UI expects. 
+// Returns a promise that is resolved with the transformed data. 
 export default function(uri){
 	var options = {
 		uri,
