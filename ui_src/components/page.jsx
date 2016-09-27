@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Header, Grid, Container } from 'stardust';
+import { Header, Grid, Container } from 'stardust';
 import NameList from './name-list';
 import $ from "jquery";
 
